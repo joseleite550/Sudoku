@@ -1,4 +1,8 @@
 package com.controle.sudoku.pages;
+
+import java.awt.Color;
+import javax.swing.JTextField;
+
 /**
  * 
  * @author jose.leite
@@ -7,6 +11,7 @@ public class TelaInicial extends javax.swing.JFrame {
 
     public TelaInicial() {
         sudoku = new int[9][9];
+        textsFields = new JTextField[9][9];
         initComponents();
         carregarFase();
     }
@@ -105,6 +110,12 @@ public class TelaInicial extends javax.swing.JFrame {
             }
         });
 
+        txt2x1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x1KeyReleased(evt);
+            }
+        });
+
         txt1x3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txt1x3KeyReleased(evt);
@@ -114,6 +125,48 @@ public class TelaInicial extends javax.swing.JFrame {
         txt1x2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txt1x2KeyReleased(evt);
+            }
+        });
+
+        txt2x2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x2KeyReleased(evt);
+            }
+        });
+
+        txt1x4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt1x4KeyReleased(evt);
+            }
+        });
+
+        txt1x5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt1x5KeyReleased(evt);
+            }
+        });
+
+        txt1x6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt1x6KeyReleased(evt);
+            }
+        });
+
+        txt1x7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt1x7KeyReleased(evt);
+            }
+        });
+
+        txt1x8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt1x8KeyReleased(evt);
+            }
+        });
+
+        txt1x9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt1x9KeyReleased(evt);
             }
         });
 
@@ -401,108 +454,159 @@ public class TelaInicial extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void txt1x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x1KeyReleased
-        setVetor(txt1x1.getText(),1,1);
+        setVetor(txt1x1,1,1);
     }//GEN-LAST:event_txt1x1KeyReleased
 
     private void txt1x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x2KeyReleased
-        setVetor(txt1x2.getText(),1,2);
+        setVetor(txt1x2,1,2);
     }//GEN-LAST:event_txt1x2KeyReleased
 
     private void txt1x3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x3KeyReleased
-        setVetor(txt1x3.getText(),1,3);
+        setVetor(txt1x3,1,3);
     }//GEN-LAST:event_txt1x3KeyReleased
 
+    private void txt1x4KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x4KeyReleased
+        setVetor(txt1x4,1,4);
+    }//GEN-LAST:event_txt1x4KeyReleased
+
+    private void txt1x5KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x5KeyReleased
+        setVetor(txt1x5,1,5);
+    }//GEN-LAST:event_txt1x5KeyReleased
+
+    private void txt1x6KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x6KeyReleased
+        setVetor(txt1x6,1,6);
+    }//GEN-LAST:event_txt1x6KeyReleased
+
+    private void txt1x7KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x7KeyReleased
+       setVetor(txt1x7,1,7);
+    }//GEN-LAST:event_txt1x7KeyReleased
+
+    private void txt1x8KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x8KeyReleased
+       setVetor(txt1x8,1,8);
+    }//GEN-LAST:event_txt1x8KeyReleased
+
+    private void txt1x9KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt1x9KeyReleased
+       setVetor(txt1x9,1,9);
+    }//GEN-LAST:event_txt1x9KeyReleased
+
+    private void txt2x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x1KeyReleased
+        setVetor(txt2x1,2,1);
+    }//GEN-LAST:event_txt2x1KeyReleased
+
+    private void txt2x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x2KeyReleased
+        setVetor(txt2x1,2,2);
+    }//GEN-LAST:event_txt2x2KeyReleased
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextField txt1x1;
-    private javax.swing.JTextField txt1x2;
-    private javax.swing.JTextField txt1x3;
-    private javax.swing.JTextField txt1x4;
-    private javax.swing.JTextField txt1x5;
-    private javax.swing.JTextField txt1x6;
-    private javax.swing.JTextField txt1x7;
-    private javax.swing.JTextField txt1x8;
-    private javax.swing.JTextField txt1x9;
-    private javax.swing.JTextField txt2x1;
-    private javax.swing.JTextField txt2x2;
-    private javax.swing.JTextField txt2x3;
-    private javax.swing.JTextField txt2x4;
-    private javax.swing.JTextField txt2x5;
-    private javax.swing.JTextField txt2x6;
-    private javax.swing.JTextField txt2x7;
-    private javax.swing.JTextField txt2x8;
-    private javax.swing.JTextField txt2x9;
-    private javax.swing.JTextField txt3x1;
-    private javax.swing.JTextField txt3x2;
-    private javax.swing.JTextField txt3x3;
-    private javax.swing.JTextField txt3x4;
-    private javax.swing.JTextField txt3x5;
-    private javax.swing.JTextField txt3x6;
-    private javax.swing.JTextField txt3x7;
-    private javax.swing.JTextField txt3x8;
-    private javax.swing.JTextField txt3x9;
-    private javax.swing.JTextField txt4x1;
-    private javax.swing.JTextField txt4x2;
-    private javax.swing.JTextField txt4x3;
-    private javax.swing.JTextField txt4x4;
-    private javax.swing.JTextField txt4x5;
-    private javax.swing.JTextField txt4x6;
-    private javax.swing.JTextField txt4x7;
-    private javax.swing.JTextField txt4x8;
-    private javax.swing.JTextField txt4x9;
-    private javax.swing.JTextField txt5x1;
-    private javax.swing.JTextField txt5x2;
-    private javax.swing.JTextField txt5x3;
-    private javax.swing.JTextField txt5x4;
-    private javax.swing.JTextField txt5x5;
-    private javax.swing.JTextField txt5x6;
-    private javax.swing.JTextField txt5x7;
-    private javax.swing.JTextField txt5x8;
-    private javax.swing.JTextField txt5x9;
-    private javax.swing.JTextField txt6x1;
-    private javax.swing.JTextField txt6x2;
-    private javax.swing.JTextField txt6x3;
-    private javax.swing.JTextField txt6x4;
-    private javax.swing.JTextField txt6x5;
-    private javax.swing.JTextField txt6x6;
-    private javax.swing.JTextField txt6x7;
-    private javax.swing.JTextField txt6x8;
-    private javax.swing.JTextField txt6x9;
-    private javax.swing.JTextField txt7x1;
-    private javax.swing.JTextField txt7x2;
-    private javax.swing.JTextField txt7x3;
-    private javax.swing.JTextField txt7x4;
-    private javax.swing.JTextField txt7x5;
-    private javax.swing.JTextField txt7x6;
-    private javax.swing.JTextField txt7x7;
-    private javax.swing.JTextField txt7x8;
-    private javax.swing.JTextField txt7x9;
-    private javax.swing.JTextField txt8x1;
-    private javax.swing.JTextField txt8x2;
-    private javax.swing.JTextField txt8x3;
-    private javax.swing.JTextField txt8x4;
-    private javax.swing.JTextField txt8x5;
-    private javax.swing.JTextField txt8x6;
-    private javax.swing.JTextField txt8x7;
-    private javax.swing.JTextField txt8x8;
-    private javax.swing.JTextField txt8x9;
-    private javax.swing.JTextField txt9x1;
-    private javax.swing.JTextField txt9x2;
-    private javax.swing.JTextField txt9x3;
-    private javax.swing.JTextField txt9x4;
-    private javax.swing.JTextField txt9x5;
-    private javax.swing.JTextField txt9x6;
-    private javax.swing.JTextField txt9x7;
-    private javax.swing.JTextField txt9x8;
-    private javax.swing.JTextField txt9x9;
+    private JTextField txt1x1;
+    private JTextField txt1x2;
+    private JTextField txt1x3;
+    private JTextField txt1x4;
+    private JTextField txt1x5;
+    private JTextField txt1x6;
+    private JTextField txt1x7;
+    private JTextField txt1x8;
+    private JTextField txt1x9;
+    private JTextField txt2x1;
+    private JTextField txt2x2;
+    private JTextField txt2x3;
+    private JTextField txt2x4;
+    private JTextField txt2x5;
+    private JTextField txt2x6;
+    private JTextField txt2x7;
+    private JTextField txt2x8;
+    private JTextField txt2x9;
+    private JTextField txt3x1;
+    private JTextField txt3x2;
+    private JTextField txt3x3;
+    private JTextField txt3x4;
+    private JTextField txt3x5;
+    private JTextField txt3x6;
+    private JTextField txt3x7;
+    private JTextField txt3x8;
+    private JTextField txt3x9;
+    private JTextField txt4x1;
+    private JTextField txt4x2;
+    private JTextField txt4x3;
+    private JTextField txt4x4;
+    private JTextField txt4x5;
+    private JTextField txt4x6;
+    private JTextField txt4x7;
+    private JTextField txt4x8;
+    private JTextField txt4x9;
+    private JTextField txt5x1;
+    private JTextField txt5x2;
+    private JTextField txt5x3;
+    private JTextField txt5x4;
+    private JTextField txt5x5;
+    private JTextField txt5x6;
+    private JTextField txt5x7;
+    private JTextField txt5x8;
+    private JTextField txt5x9;
+    private JTextField txt6x1;
+    private JTextField txt6x2;
+    private JTextField txt6x3;
+    private JTextField txt6x4;
+    private JTextField txt6x5;
+    private JTextField txt6x6;
+    private JTextField txt6x7;
+    private JTextField txt6x8;
+    private JTextField txt6x9;
+    private JTextField txt7x1;
+    private JTextField txt7x2;
+    private JTextField txt7x3;
+    private JTextField txt7x4;
+    private JTextField txt7x5;
+    private JTextField txt7x6;
+    private JTextField txt7x7;
+    private JTextField txt7x8;
+    private JTextField txt7x9;
+    private JTextField txt8x1;
+    private JTextField txt8x2;
+    private JTextField txt8x3;
+    private JTextField txt8x4;
+    private JTextField txt8x5;
+    private JTextField txt8x6;
+    private JTextField txt8x7;
+    private JTextField txt8x8;
+    private JTextField txt8x9;
+    private JTextField txt9x1;
+    private JTextField txt9x2;
+    private JTextField txt9x3;
+    private JTextField txt9x4;
+    private JTextField txt9x5;
+    private JTextField txt9x6;
+    private JTextField txt9x7;
+    private JTextField txt9x8;
+    private JTextField txt9x9;
     // End of variables declaration//GEN-END:variables
     private int[][] sudoku;
+    private JTextField[][] textsFields;
+    
     private void carregarFase() {
         
     }
 
-    private void setVetor(String texto, int coluna, int linha){
-     if(!texto.equals("")){
-        sudoku[coluna][linha]= Integer.parseInt(texto);
+    private void setVetor(JTextField field, int coluna, int linha){
+     if(!field.getText().equals("")){
+        sudoku[coluna-1][linha-1]= Integer.parseInt(field.getText());
+        textsFields[coluna-1][linha-1] = field;
+        boolean numeroExiste = validaSudoku(Integer.parseInt(field.getText()),coluna-1,linha-1);
+         System.out.println(numeroExiste?"erro":"certo");
        }
+    }
+
+    private boolean validaSudoku(int numero, int coluna, int linha) {
+        for(int i =0;i<9;i++){
+            if(sudoku[coluna][i]==numero && i != linha){
+                textsFields[coluna][linha].setForeground(Color.red);
+                return true;
+            }
+            if(sudoku[i][linha]==numero && i != coluna){
+                return true;
+            }
+        }
+        textsFields[coluna][linha].setForeground(Color.black);
+        return false;
     }
 }
