@@ -339,6 +339,9 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x1">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x1KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt1x3">
       <Events>
@@ -356,10 +359,19 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x3">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x3KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x2">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x2KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x3">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x3KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt1x4">
       <Events>
@@ -392,88 +404,208 @@
       </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x4">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x4KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x5">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x5KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x6">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x6KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x7">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x7KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x8">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x8KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt2x9">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt2x9KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x4">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x4KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x5">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x5KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x6">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x6KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x7">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x7KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x8">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x8KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt3x9">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt3x9KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x1">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x1KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x1">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x1KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x1">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x1KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt7x1">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt7x1KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt8x1">
     </Component>
     <Component class="javax.swing.JTextField" name="txt9x1">
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x2">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x2KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x3">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x3KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x4">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x4KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x5">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x5KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x6">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x6KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x7">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x7KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x8">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x8KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt4x9">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt4x9KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x2">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x2KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x3">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x3KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x4">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x4KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x5">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x5KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x6">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x6KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x7">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x7KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x8">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x8KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt5x9">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt5x9KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x2">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x2KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x3">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x3KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x4">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x4KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x5">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x5KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x6">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x6KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x7">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x7KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x8">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x8KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt6x9">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txt6x9KeyReleased"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JTextField" name="txt7x2">
     </Component>

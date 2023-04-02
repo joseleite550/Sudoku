@@ -116,6 +116,12 @@ public class TelaInicial extends javax.swing.JFrame {
             }
         });
 
+        txt3x1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x1KeyReleased(evt);
+            }
+        });
+
         txt1x3.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txt1x3KeyReleased(evt);
@@ -131,6 +137,24 @@ public class TelaInicial extends javax.swing.JFrame {
         txt2x2.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txt2x2KeyReleased(evt);
+            }
+        });
+
+        txt2x3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x3KeyReleased(evt);
+            }
+        });
+
+        txt3x2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x2KeyReleased(evt);
+            }
+        });
+
+        txt3x3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x3KeyReleased(evt);
             }
         });
 
@@ -167,6 +191,246 @@ public class TelaInicial extends javax.swing.JFrame {
         txt1x9.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyReleased(java.awt.event.KeyEvent evt) {
                 txt1x9KeyReleased(evt);
+            }
+        });
+
+        txt2x4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x4KeyReleased(evt);
+            }
+        });
+
+        txt2x5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x5KeyReleased(evt);
+            }
+        });
+
+        txt2x6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x6KeyReleased(evt);
+            }
+        });
+
+        txt2x7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x7KeyReleased(evt);
+            }
+        });
+
+        txt2x8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x8KeyReleased(evt);
+            }
+        });
+
+        txt2x9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt2x9KeyReleased(evt);
+            }
+        });
+
+        txt3x4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x4KeyReleased(evt);
+            }
+        });
+
+        txt3x5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x5KeyReleased(evt);
+            }
+        });
+
+        txt3x6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x6KeyReleased(evt);
+            }
+        });
+
+        txt3x7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x7KeyReleased(evt);
+            }
+        });
+
+        txt3x8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x8KeyReleased(evt);
+            }
+        });
+
+        txt3x9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt3x9KeyReleased(evt);
+            }
+        });
+
+        txt4x1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x1KeyReleased(evt);
+            }
+        });
+
+        txt5x1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x1KeyReleased(evt);
+            }
+        });
+
+        txt6x1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x1KeyReleased(evt);
+            }
+        });
+
+        txt7x1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt7x1KeyReleased(evt);
+            }
+        });
+
+        txt4x2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x2KeyReleased(evt);
+            }
+        });
+
+        txt4x3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x3KeyReleased(evt);
+            }
+        });
+
+        txt4x4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x4KeyReleased(evt);
+            }
+        });
+
+        txt4x5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x5KeyReleased(evt);
+            }
+        });
+
+        txt4x6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x6KeyReleased(evt);
+            }
+        });
+
+        txt4x7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x7KeyReleased(evt);
+            }
+        });
+
+        txt4x8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x8KeyReleased(evt);
+            }
+        });
+
+        txt4x9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt4x9KeyReleased(evt);
+            }
+        });
+
+        txt5x2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x2KeyReleased(evt);
+            }
+        });
+
+        txt5x3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x3KeyReleased(evt);
+            }
+        });
+
+        txt5x4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x4KeyReleased(evt);
+            }
+        });
+
+        txt5x5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x5KeyReleased(evt);
+            }
+        });
+
+        txt5x6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x6KeyReleased(evt);
+            }
+        });
+
+        txt5x7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x7KeyReleased(evt);
+            }
+        });
+
+        txt5x8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x8KeyReleased(evt);
+            }
+        });
+
+        txt5x9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt5x9KeyReleased(evt);
+            }
+        });
+
+        txt6x2.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x2KeyReleased(evt);
+            }
+        });
+
+        txt6x3.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x3KeyReleased(evt);
+            }
+        });
+
+        txt6x4.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x4KeyReleased(evt);
+            }
+        });
+
+        txt6x5.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x5KeyReleased(evt);
+            }
+        });
+
+        txt6x6.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x6KeyReleased(evt);
+            }
+        });
+
+        txt6x7.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x7KeyReleased(evt);
+            }
+        });
+
+        txt6x8.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x8KeyReleased(evt);
+            }
+        });
+
+        txt6x9.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyReleased(java.awt.event.KeyEvent evt) {
+                txt6x9KeyReleased(evt);
             }
         });
 
@@ -494,91 +758,268 @@ public class TelaInicial extends javax.swing.JFrame {
     }//GEN-LAST:event_txt2x1KeyReleased
 
     private void txt2x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x2KeyReleased
-        setVetor(txt2x1,2,2);
+        setVetor(txt2x2,2,2);
     }//GEN-LAST:event_txt2x2KeyReleased
 
+    private void txt2x3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x3KeyReleased
+       setVetor(txt2x3,2,3);
+    }//GEN-LAST:event_txt2x3KeyReleased
+
+    private void txt2x4KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x4KeyReleased
+        setVetor(txt2x4,2,4);
+    }//GEN-LAST:event_txt2x4KeyReleased
+
+    private void txt2x5KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x5KeyReleased
+        setVetor(txt2x5,2,5);
+    }//GEN-LAST:event_txt2x5KeyReleased
+
+    private void txt2x6KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x6KeyReleased
+        setVetor(txt2x6,2,6);
+    }//GEN-LAST:event_txt2x6KeyReleased
+
+    private void txt2x7KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x7KeyReleased
+        setVetor(txt2x7,2,7);
+    }//GEN-LAST:event_txt2x7KeyReleased
+
+    private void txt2x8KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x8KeyReleased
+        setVetor(txt2x8,2,8);
+    }//GEN-LAST:event_txt2x8KeyReleased
+
+    private void txt2x9KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt2x9KeyReleased
+        setVetor(txt2x9,2,9);
+    }//GEN-LAST:event_txt2x9KeyReleased
+
+    private void txt3x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x1KeyReleased
+        setVetor(txt3x1,3,1);
+    }//GEN-LAST:event_txt3x1KeyReleased
+
+    private void txt3x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x2KeyReleased
+        setVetor(txt3x2,3,2);
+    }//GEN-LAST:event_txt3x2KeyReleased
+
+    private void txt3x3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x3KeyReleased
+        setVetor(txt3x3,3,3);
+    }//GEN-LAST:event_txt3x3KeyReleased
+
+    private void txt3x4KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x4KeyReleased
+        setVetor(txt3x4,3,4);
+    }//GEN-LAST:event_txt3x4KeyReleased
+
+    private void txt3x5KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x5KeyReleased
+        setVetor(txt3x5,3,5);
+    }//GEN-LAST:event_txt3x5KeyReleased
+
+    private void txt3x6KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x6KeyReleased
+        setVetor(txt3x6,3,6);
+    }//GEN-LAST:event_txt3x6KeyReleased
+
+    private void txt3x7KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x7KeyReleased
+        setVetor(txt3x7,3,7);
+    }//GEN-LAST:event_txt3x7KeyReleased
+
+    private void txt3x8KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x8KeyReleased
+        setVetor(txt3x8,3,8);
+    }//GEN-LAST:event_txt3x8KeyReleased
+
+    private void txt3x9KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt3x9KeyReleased
+        setVetor(txt3x9,3,9);
+    }//GEN-LAST:event_txt3x9KeyReleased
+
+    private void txt4x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x1KeyReleased
+        setVetor(txt4x1,4,1);
+    }//GEN-LAST:event_txt4x1KeyReleased
+
+    private void txt4x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x2KeyReleased
+        setVetor(txt4x2,4,2);
+    }//GEN-LAST:event_txt4x2KeyReleased
+
+    private void txt4x3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x3KeyReleased
+        setVetor(txt4x3,4,3);
+    }//GEN-LAST:event_txt4x3KeyReleased
+
+    private void txt4x4KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x4KeyReleased
+        setVetor(txt4x4,4,4);
+    }//GEN-LAST:event_txt4x4KeyReleased
+
+    private void txt4x5KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x5KeyReleased
+        setVetor(txt4x5,4,5);
+    }//GEN-LAST:event_txt4x5KeyReleased
+
+    private void txt4x6KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x6KeyReleased
+        setVetor(txt4x6,4,6);
+    }//GEN-LAST:event_txt4x6KeyReleased
+
+    private void txt4x7KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x7KeyReleased
+        setVetor(txt4x7,4,7);
+    }//GEN-LAST:event_txt4x7KeyReleased
+
+    private void txt4x8KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x8KeyReleased
+        setVetor(txt4x8,4,8);
+    }//GEN-LAST:event_txt4x8KeyReleased
+
+    private void txt4x9KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt4x9KeyReleased
+        setVetor(txt4x9,4,9);
+    }//GEN-LAST:event_txt4x9KeyReleased
+
+    private void txt5x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x1KeyReleased
+        setVetor(txt5x1,5,1);
+    }//GEN-LAST:event_txt5x1KeyReleased
+
+    private void txt5x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x2KeyReleased
+        setVetor(txt5x2,5,2);
+    }//GEN-LAST:event_txt5x2KeyReleased
+
+    private void txt5x3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x3KeyReleased
+        setVetor(txt5x3,5,3);
+    }//GEN-LAST:event_txt5x3KeyReleased
+
+    private void txt5x4KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x4KeyReleased
+        setVetor(txt5x4,5,4);
+    }//GEN-LAST:event_txt5x4KeyReleased
+
+    private void txt5x5KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x5KeyReleased
+        setVetor(txt5x5,5,5);
+    }//GEN-LAST:event_txt5x5KeyReleased
+
+    private void txt5x6KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x6KeyReleased
+        setVetor(txt5x6,5,6);
+    }//GEN-LAST:event_txt5x6KeyReleased
+
+    private void txt5x7KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x7KeyReleased
+        setVetor(txt5x7,5,7);
+    }//GEN-LAST:event_txt5x7KeyReleased
+
+    private void txt5x8KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x8KeyReleased
+        setVetor(txt5x8,5,8);
+    }//GEN-LAST:event_txt5x8KeyReleased
+
+    private void txt5x9KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt5x9KeyReleased
+        setVetor(txt5x9,5,9);
+    }//GEN-LAST:event_txt5x9KeyReleased
+
+    private void txt6x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x1KeyReleased
+        setVetor(txt6x1,3,1);
+    }//GEN-LAST:event_txt6x1KeyReleased
+
+    private void txt6x2KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x2KeyReleased
+        setVetor(txt3x2,6,2);
+    }//GEN-LAST:event_txt6x2KeyReleased
+
+    private void txt6x3KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x3KeyReleased
+        setVetor(txt6x3,6,3);
+    }//GEN-LAST:event_txt6x3KeyReleased
+
+    private void txt6x4KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x4KeyReleased
+        setVetor(txt6x4,6,4);
+    }//GEN-LAST:event_txt6x4KeyReleased
+
+    private void txt6x5KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x5KeyReleased
+        setVetor(txt6x5,6,5);
+    }//GEN-LAST:event_txt6x5KeyReleased
+
+    private void txt6x6KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x6KeyReleased
+        setVetor(txt6x6,6,6);
+    }//GEN-LAST:event_txt6x6KeyReleased
+
+    private void txt6x7KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x7KeyReleased
+        setVetor(txt6x7,6,7);
+    }//GEN-LAST:event_txt6x7KeyReleased
+
+    private void txt6x8KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x8KeyReleased
+        setVetor(txt6x8,6,8);
+    }//GEN-LAST:event_txt6x8KeyReleased
+
+    private void txt6x9KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt6x9KeyReleased
+        setVetor(txt6x9,6,9);
+    }//GEN-LAST:event_txt6x9KeyReleased
+
+    private void txt7x1KeyReleased(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt7x1KeyReleased
+        setVetor(txt7x1,7,1);
+    }//GEN-LAST:event_txt7x1KeyReleased
+
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private JTextField txt1x1;
-    private JTextField txt1x2;
-    private JTextField txt1x3;
-    private JTextField txt1x4;
-    private JTextField txt1x5;
-    private JTextField txt1x6;
-    private JTextField txt1x7;
-    private JTextField txt1x8;
-    private JTextField txt1x9;
-    private JTextField txt2x1;
-    private JTextField txt2x2;
-    private JTextField txt2x3;
-    private JTextField txt2x4;
-    private JTextField txt2x5;
-    private JTextField txt2x6;
-    private JTextField txt2x7;
-    private JTextField txt2x8;
-    private JTextField txt2x9;
-    private JTextField txt3x1;
-    private JTextField txt3x2;
-    private JTextField txt3x3;
-    private JTextField txt3x4;
-    private JTextField txt3x5;
-    private JTextField txt3x6;
-    private JTextField txt3x7;
-    private JTextField txt3x8;
-    private JTextField txt3x9;
-    private JTextField txt4x1;
-    private JTextField txt4x2;
-    private JTextField txt4x3;
-    private JTextField txt4x4;
-    private JTextField txt4x5;
-    private JTextField txt4x6;
-    private JTextField txt4x7;
-    private JTextField txt4x8;
-    private JTextField txt4x9;
-    private JTextField txt5x1;
-    private JTextField txt5x2;
-    private JTextField txt5x3;
-    private JTextField txt5x4;
-    private JTextField txt5x5;
-    private JTextField txt5x6;
-    private JTextField txt5x7;
-    private JTextField txt5x8;
-    private JTextField txt5x9;
-    private JTextField txt6x1;
-    private JTextField txt6x2;
-    private JTextField txt6x3;
-    private JTextField txt6x4;
-    private JTextField txt6x5;
-    private JTextField txt6x6;
-    private JTextField txt6x7;
-    private JTextField txt6x8;
-    private JTextField txt6x9;
-    private JTextField txt7x1;
-    private JTextField txt7x2;
-    private JTextField txt7x3;
-    private JTextField txt7x4;
-    private JTextField txt7x5;
-    private JTextField txt7x6;
-    private JTextField txt7x7;
-    private JTextField txt7x8;
-    private JTextField txt7x9;
-    private JTextField txt8x1;
-    private JTextField txt8x2;
-    private JTextField txt8x3;
-    private JTextField txt8x4;
-    private JTextField txt8x5;
-    private JTextField txt8x6;
-    private JTextField txt8x7;
-    private JTextField txt8x8;
-    private JTextField txt8x9;
-    private JTextField txt9x1;
-    private JTextField txt9x2;
-    private JTextField txt9x3;
-    private JTextField txt9x4;
-    private JTextField txt9x5;
-    private JTextField txt9x6;
-    private JTextField txt9x7;
-    private JTextField txt9x8;
-    private JTextField txt9x9;
+    private javax.swing.JTextField txt1x1;
+    private javax.swing.JTextField txt1x2;
+    private javax.swing.JTextField txt1x3;
+    private javax.swing.JTextField txt1x4;
+    private javax.swing.JTextField txt1x5;
+    private javax.swing.JTextField txt1x6;
+    private javax.swing.JTextField txt1x7;
+    private javax.swing.JTextField txt1x8;
+    private javax.swing.JTextField txt1x9;
+    private javax.swing.JTextField txt2x1;
+    private javax.swing.JTextField txt2x2;
+    private javax.swing.JTextField txt2x3;
+    private javax.swing.JTextField txt2x4;
+    private javax.swing.JTextField txt2x5;
+    private javax.swing.JTextField txt2x6;
+    private javax.swing.JTextField txt2x7;
+    private javax.swing.JTextField txt2x8;
+    private javax.swing.JTextField txt2x9;
+    private javax.swing.JTextField txt3x1;
+    private javax.swing.JTextField txt3x2;
+    private javax.swing.JTextField txt3x3;
+    private javax.swing.JTextField txt3x4;
+    private javax.swing.JTextField txt3x5;
+    private javax.swing.JTextField txt3x6;
+    private javax.swing.JTextField txt3x7;
+    private javax.swing.JTextField txt3x8;
+    private javax.swing.JTextField txt3x9;
+    private javax.swing.JTextField txt4x1;
+    private javax.swing.JTextField txt4x2;
+    private javax.swing.JTextField txt4x3;
+    private javax.swing.JTextField txt4x4;
+    private javax.swing.JTextField txt4x5;
+    private javax.swing.JTextField txt4x6;
+    private javax.swing.JTextField txt4x7;
+    private javax.swing.JTextField txt4x8;
+    private javax.swing.JTextField txt4x9;
+    private javax.swing.JTextField txt5x1;
+    private javax.swing.JTextField txt5x2;
+    private javax.swing.JTextField txt5x3;
+    private javax.swing.JTextField txt5x4;
+    private javax.swing.JTextField txt5x5;
+    private javax.swing.JTextField txt5x6;
+    private javax.swing.JTextField txt5x7;
+    private javax.swing.JTextField txt5x8;
+    private javax.swing.JTextField txt5x9;
+    private javax.swing.JTextField txt6x1;
+    private javax.swing.JTextField txt6x2;
+    private javax.swing.JTextField txt6x3;
+    private javax.swing.JTextField txt6x4;
+    private javax.swing.JTextField txt6x5;
+    private javax.swing.JTextField txt6x6;
+    private javax.swing.JTextField txt6x7;
+    private javax.swing.JTextField txt6x8;
+    private javax.swing.JTextField txt6x9;
+    private javax.swing.JTextField txt7x1;
+    private javax.swing.JTextField txt7x2;
+    private javax.swing.JTextField txt7x3;
+    private javax.swing.JTextField txt7x4;
+    private javax.swing.JTextField txt7x5;
+    private javax.swing.JTextField txt7x6;
+    private javax.swing.JTextField txt7x7;
+    private javax.swing.JTextField txt7x8;
+    private javax.swing.JTextField txt7x9;
+    private javax.swing.JTextField txt8x1;
+    private javax.swing.JTextField txt8x2;
+    private javax.swing.JTextField txt8x3;
+    private javax.swing.JTextField txt8x4;
+    private javax.swing.JTextField txt8x5;
+    private javax.swing.JTextField txt8x6;
+    private javax.swing.JTextField txt8x7;
+    private javax.swing.JTextField txt8x8;
+    private javax.swing.JTextField txt8x9;
+    private javax.swing.JTextField txt9x1;
+    private javax.swing.JTextField txt9x2;
+    private javax.swing.JTextField txt9x3;
+    private javax.swing.JTextField txt9x4;
+    private javax.swing.JTextField txt9x5;
+    private javax.swing.JTextField txt9x6;
+    private javax.swing.JTextField txt9x7;
+    private javax.swing.JTextField txt9x8;
+    private javax.swing.JTextField txt9x9;
     // End of variables declaration//GEN-END:variables
     private int[][] sudoku;
     private JTextField[][] textsFields;
@@ -603,6 +1044,7 @@ public class TelaInicial extends javax.swing.JFrame {
                 return true;
             }
             if(sudoku[i][linha]==numero && i != coluna){
+                textsFields[coluna][linha].setForeground(Color.red);
                 return true;
             }
         }
